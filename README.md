@@ -14,11 +14,11 @@ Main purpose of the Hypothesis_testing :
    The purpose of hypothesis testing is to test whether the null hypothesis (there is no difference, no effect) can be rejected or approved. If the null hypothesis is rejected, then the research hypothesis can be accepted. If the null hypothesis is accepted, then the research hypothesis is rejected.
    
 Terminology : 
-  *) Population : The Whole data
-  *) Sample : Certain amount of people in the population based on statement
-  *) Parameter : It is a summary discription of a fixed characterstic of the target population. Ex : (Mean,Variance,Standard deviation) If I want to take the average winning rate of population that can be possible in parameter
-  *) Sapmling distribution : statistic obtained through a large number of samples drawn from a specific population. Ex : we can take any parameter that is going to apply a large number of samples in a population.
-  *) sample error : Similar to standard deviation but here the measure of spread of samole data , where's standard deviation is for population.
+ *) Population : The Whole data
+ *) Sample : Certain amount of people in the population based on statement
+ *) Parameter : It is a summary discription of a fixed characterstic of the target population. Ex : (Mean,Variance,Standard deviation) If I want to take the average winning rate of population that can be possible in parameter
+ *) Sapmling distribution : statistic obtained through a large number of samples drawn from a specific population. Ex : we can take any parameter that is going to apply a large number of samples in a population.
+ *) sample error : Similar to standard deviation but here the measure of spread of samole data , where's standard deviation is for population.
    
    Standard deviation --> For population
    Standard Error --> For Sample
@@ -37,8 +37,32 @@ Terminology :
      .) A statemnt that some differance or effect is expected 
      .) The rejection of null hypothesis will leads to acceptance of alternative hypothesis (if any changes of increasing ot changes a value is known as alternative hypothesis)
      
-  *) One tailed test : 
+ *) One tailed test : Test in which critical area of a distribution in one sided so that is either greater or less than a certain value but not both , If the sample being falls into the one sided critical area the alternative hypothesis will be accepted instead of the Null hypothesis.
+  
+  .) Left sided hypothesis .) Righr sided hypothesis
+  
+ *) Two tailed hypothesis : Test in which the critical area of a distribution is tow-sided and tests weather a sample is greater than or less than a certain range of values. If the sample being testes falls into either of critical areas the alternative hypothesis is accepted of the null hypothesis.
+  
+  
+  Simple Hypothesis   -->
+                          [ Based on probability distribution ] 
+  Composite Hypothesis  -->
+   
+     .) Simple Hypothesis    : Hypothesis completly specifies the distribution of the population.
+     .) Composite Hypothesis : Hypothesis doesn't completly specifies the distribution of the population.
+     
+  *)Type-1 Error : Error occurs when the sample results leads to the rejection of null hypothesis when it is in fact true, It is equivalent to false positives. When you reject a true null hypothesis.
+  
+  TP => True posotive FP => False positive
+   
+|                                | Null Hypothesis is true                          | Null hypothesis is false        |
+                           
+| Reject null hypothesis         | Type Error (False Positive)                      | Correct outcome (True positive) |
+
+| Fail to reject null hypothesis | Correct outcome Correct outcome (True negative)  | Type Error (False negative)     |
+
+
+
+
    
    
-     
-     
