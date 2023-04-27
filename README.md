@@ -44,22 +44,29 @@ Terminology :
  *) Two tailed hypothesis : Test in which the critical area of a distribution is tow-sided and tests weather a sample is greater than or less than a certain range of values. If the sample being testes falls into either of critical areas the alternative hypothesis is accepted of the null hypothesis.
   
   
-  Simple Hypothesis   -->
-                          [ Based on probability distribution ] 
-  Composite Hypothesis  -->
+  Simple Hypothesis    ---|
+                          | ->  Based on probability distribution 
+  Composite Hypothesis ---|
    
-     .) Simple Hypothesis    : Hypothesis completly specifies the distribution of the population.
-     .) Composite Hypothesis : Hypothesis doesn't completly specifies the distribution of the population.
+   .) Simple Hypothesis    : Hypothesis completly specifies the distribution of the population.
+   .) Composite Hypothesis : Hypothesis doesn't completly specifies the distribution of the population.
      
   *)Type-1 Error : Error occurs when the sample results leads to the rejection of null hypothesis when it is in fact true, It is equivalent to false positives. When you reject a true null hypothesis.
   
-  TP => True posotive FP => False positive
+ Table :  TP => True posotive , FP => False positive , TN => True negative , FN => False negative
+    
    
-|                                | Null Hypothesis is true                          | Null hypothesis is false        |
+|                                | Null Hypothesis is true  | Null hypothesis is false  |
                            
-| Reject null hypothesis         | Type Error (False Positive)                      | Correct outcome (True positive) |
+| Reject null hypothesis         | Type Error (FP)          | Correct outcome (TP)      |
 
-| Fail to reject null hypothesis | Correct outcome Correct outcome (True negative)  | Type Error (False negative)     |
+| Fail to reject null hypothesis | Correct outcome (TN)     | Type Error (FN)           |
+
+
+
+
+
+
 
 
 
