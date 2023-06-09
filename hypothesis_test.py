@@ -34,3 +34,10 @@ z,p = model(mean_1,mean_2,sd1,sd2,n1,n2)
 
 z_score = np.round(z,8)
 p_value = np.round(p,6)
+
+
+if (p_value < 0.5):
+    Hypothesis_test = "Reject Null Hypothesis : Significant "
+else:
+    Hypothesis_test = "Do Not Reject Null Hypothesis : Significant "
+print(f"P_VALUE : {p_value} Hypothesis Test : {Hypothesis_test}")
